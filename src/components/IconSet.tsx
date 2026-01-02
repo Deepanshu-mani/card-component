@@ -8,7 +8,7 @@ import { IconSetProps } from "./types";
  */
 const IconSet: React.FC<IconSetProps> = ({ icons, className = "" }) => {
     return (
-        <div className={`flex flex-col  -right-10 gap-1.5 ${className}`}>
+        <div className={`flex flex-col gap-1.5 ${className}`}>
             {icons.map((icon, index) => (
                 <div
                     key={index}

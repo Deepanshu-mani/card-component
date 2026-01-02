@@ -141,7 +141,7 @@ const AnimatedCard: React.FC<AnimatedCardProps> = ({
 
             <IconSet
                 icons={currentIconSet}
-                className="absolute bottom-12 sm:bottom-14 md:bottom-16 right-0 z-10"
+                className="absolute bottom-12 sm:bottom-14 md:bottom-16 -right-16 z-10"
             />
         </div>
     );
